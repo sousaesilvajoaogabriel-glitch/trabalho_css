@@ -1,0 +1,47 @@
+
+/* ========================================
+VOYA TRAVEL — TELA DE LOGIN
+======================================== */
+
+/* 1. RESET E CONFIGURAÇÕES GERAIS */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+{
+    --primary:#006b91;
+    --primary-houver:#005779;
+    --text-dark:#25282b;
+    --text-muted:#7b8794;
+    --border:#e6e9ed;
+    --input-bg:#f1f3f6;
+    --white:#ffffff;
+}
+
+body.login-body{
+  min-height:100vh;
+  font-family: 'Poppins', sans-serif;
+  color:var(--text-dark);
+  background-color:#dce7ee;
+  overflow-x:hidden;
+}
+
+/*2.IMAGEM DE FUNDO*/
+.login-boder-container{
+    border:red solid 2px;
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    margin:0;
+    inset:0;
+    z-index:-2;
+}
+.login-bg-image{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:cover;
+    object-position:center;
+}
+/*Camada*/
